@@ -23,7 +23,7 @@ const Hero = () => {
           className="flex flex-col space-y-9 md:w-1/2"
         >
           <h3 className="max-w-2xl text-lg font-semibold text-center tracking-wider text-title/90 -mb-8 md:text-lg md:text-start">
-            Hi, There!
+            Hi, There test!
           </h3>
           <h1 className="max-w-2xl text-5xl font-bold text-center text-primary -mb-5 md:text-6xl md:text-start">
             I'm a{" "}
