@@ -77,7 +77,7 @@ const WorkData = [
     title: "Women In Power",
     category: "HTML - CSS",
     description:
-      "The Movie Land is a React web app that I created as a personal project. It fetches movie data from an API and allows users to search for movies, view their details, and save them to a favorites list. The app features a responsive design and uses modern web technologies to provide a seamless user experience.",
+      "Women In Power is a client project that involved developing a website, the website serves as a platform to advertise past and upcoming events organized by the company. Users can explore event details, including information about the speakers and the agenda, with a focus on showcasing the empowerment and achievements of women.",
     tools: "HTML CSS JS BOOTSTRAP",
     viewDemo: "https://wipa.co.za/",
     sourceCode: "https://github.com/MohaleDesigns/WomenInPower",

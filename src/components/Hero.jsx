@@ -4,11 +4,11 @@ import { GrFacebook } from "react-icons/gr";
 import { BsLinkedin } from "react-icons/bs";
 import { FaInstagramSquare, FaGithubSquare } from "react-icons/fa";
 
-import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "./variants";
 
-import heroImage from "../assets/banner-image.png";
+// import heroImage from "../assets/banner-image.png";
+import heroImage from "../assets/banner-image-1.png";
 
 const Hero = () => {
   return (
@@ -25,25 +25,22 @@ const Hero = () => {
           <h3 className="max-w-2xl text-lg font-semibold text-center tracking-wider text-title/90 -mb-8 md:text-lg md:text-start">
             Hi, There!
           </h3>
-          <h1 className="max-w-2xl text-5xl font-bold text-center text-primary -mb-5 md:text-6xl md:text-start">
-            I'm a{" "}
-            <span className="text-hover">
-              Junior Front-End
-              <TypeAnimation
-                sequence={[" Developer", 3000]}
-                speed={50}
-                wrapper="span"
-                repeat={Infinity}
-              />
-            </span>
+          <h1 className="max-w-2xl text-4xl font-bold text-center text-white -mb-5 md:text-5xl md:text-start">
+            I'm a Front-End Developer on the Path to Full-Stack Mastery
           </h1>
+          {/* 
+            "Front-End Developer Advancing Towards Full-Stack Mastery"
+            "Front-End Developer Transitioning to Full-Stack Mastery"
+            "Front-End Developer on the Path to Full-Stack Mastery"
+          */}
           <p className="max-w-xl text-lg text-center text-paragraph md:text-start ">
-            Tokoloho Kabelo Mohale is my name. I am an experienced Junior
-            Front-End Developer who create interactive, visually appealing
-            websites for all devices. I also creates both modern and traditional
-            designs. I'm all about using web development to take people's ideas
-            and make them a reality, turning a simple idea into a high-end
-            marketable solution to meet the client's expectations.
+            I'm <strong>Tokoloho Kabelo Mohale</strong> an experienced Front-End
+            Developer who soon will be transitioning to Full-Stack Mastery. I
+            create interactive, visually appealing websites for all devices, I
+            also creates both modern and traditional designs. I'm all about
+            using web development to take people's ideas and make them a
+            reality, turning a simple idea into a high-end marketable solution
+            to meet the client's expectations.
           </p>
 
           {/* socials */}

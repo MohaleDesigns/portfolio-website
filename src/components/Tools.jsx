@@ -12,10 +12,10 @@ const Tools = () => {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.3 }}
-        className="container flex align-center space-y-8 mb-10 mx-auto"
+        className="container flex align-center space-y-8 my-14 mx-auto"
       >
         <h3 className="max-w-2xl text-lg font-semibold text-center text-white uppercase mx-auto md:text-lg">
-          Skills & Tools
+          Tech Stack
         </h3>
       </motion.div>
 
