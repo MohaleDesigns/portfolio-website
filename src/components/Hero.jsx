@@ -91,7 +91,7 @@ const Hero = () => {
           viewport={{ once: false, amount: 0.3 }}
           className="flex flex-col space-y-9 md:w-1/2"
         >
-          <img src={heroImage} alt="hero" className="hidden md:block" />
+          <img src={heroImage} alt="hero" className="mt-5 md:mt-0" />
         </motion.div>
       </div>
     </section>
