@@ -27,7 +27,7 @@ const WorkData = [
     category: "PROGRAMMING",
     description:
       "Quizzical is an engaging web app that I developed for personal exploration. It allows users to test their knowledge about me through a series of quizzes. Users are presented with a comprehension before answering questions related to my background, interests, and experiences.",
-    tools: "REACT",
+    tools: "REACT Tailwind-CSS",
     viewDemo: "https://gamequizzical.netlify.app",
     sourceCode: "https://github.com/MohaleDesigns/quiz-version-two",
   },
@@ -38,7 +38,7 @@ const WorkData = [
     category: "PROGRAMMING",
     description:
       "In this interactive game, users roll virtual dice with the goal of getting all the dice to display the same number. The twist is that users can strategically 'freeze' the dice at their current values by clicking on them. This project demonstrates my creative approach to web app development and offers users an entertaining and challenging experience.",
-    tools: "REACT",
+    tools: "REACT Tailwind-CSS",
     viewDemo: "https://dicefreeze.netlify.app/",
     sourceCode: "https://github.com/MohaleDesigns/dice-freeze",
   },
@@ -105,7 +105,7 @@ const WorkData = [
     category: "IN PROGRESS",
     description:
       "MohaLix is a personal project where I delved into web development by creating a clone of the popular streaming platform, Netflix. Through this project, I honed my skills in designing and structuring a complex web application. MohaLix will allows users to browse and watch a collection of videos, bringing together my passion for coding and content consumption in one project.",
-    tools: "REACT",
+    tools: "REACT Tailwind-CSS",
     viewDemo: "none",
     sourceCode: "none",
   },
