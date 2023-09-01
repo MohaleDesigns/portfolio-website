@@ -33,16 +33,15 @@ const WorkButtons = ({ buttons, filter }) => {
       >
         {buttons.map((category, index) => {
           return (
-            <>
+            <div key={index}>
               <button
-                key={index}
                 className="text-white text-bold py-2 px-10 mx-2 mt-4 bg-accent rounded-md hover:bg-title/80 hover:-translate-y-2 transition-all ease-in-out duration-700"
                 type="buttons"
                 onClick={() => filter(category)}
               >
                 {category}
               </button>
-            </>
+            </div>
           );
         })}
       </motion.div>

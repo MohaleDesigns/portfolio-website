@@ -20,7 +20,7 @@ const Nav = () => {
             <BiHomeAlt />
           </Link>
 
-          <Link
+          {/* <Link
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
             to="about"
             activeClass="active"
@@ -28,7 +28,7 @@ const Nav = () => {
             spy={true}
           >
             <BiUser />
-          </Link>
+          </Link> */}
 
           <Link
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"

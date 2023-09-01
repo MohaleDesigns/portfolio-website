@@ -7,9 +7,12 @@ const WorkFiltered = ({ menuItems }) => {
   return (
     <section id="work">
       <div>
-        {menuItems.map((menuItem) => {
+        {menuItems.map((menuItem, index) => {
           return (
-            <div className="container flex flex-col items-center justify-center gap-8 space-y-0 py-6 px-5 mx-auto mt-10 md:flex-row-reverse md:space-x-0">
+            <div
+              key={index}
+              className="container flex flex-col items-center justify-center gap-8 space-y-0 py-6 px-5 mx-auto mt-10 md:flex-row-reverse md:space-x-0"
+            >
               {/* left content  */}
               <motion.div
                 variants={fadeIn("left", 0.3)}

@@ -17,7 +17,7 @@ const Contact = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
-          className="flex flex-col space-y-8 mb-14 mx-auto"
+          className="flex flex-col space-y-8 mb-8 mx-auto"
         >
           <h3 className="max-w-2xl text-lg font-semibold text-center tracking-wider text-title/90 -mb-8 md:text-lg">
             Contact Me
@@ -38,14 +38,14 @@ const Contact = () => {
           className="p-5"
         >
           {/* details */}
-          <div className=" bg-secondary text-paragraph text-center custom-shadow rounded-xl px-16 py-16 mx-6">
-            <ul className="flex items-center justify-between gap-5">
-              <li>
+          <div className=" bg-secondary text-paragraph text-center custom-shadow rounded-xl p-14 mx-6">
+            <ul className="flex flex-col items-center justify-between gap-5 md:flex-row">
+              <li className="flex items-center justify-between gap-1">
                 <FaMapPin size={20} className="inline-block text-title mr-1" />
                 41 Impofu Street, Senaoane, Johannesburg, SA
               </li>
               <a href="tel:0813446402">
-                <li className="hover:text-title hover:-translate-y-2 transition-all ease-in-out duration-700">
+                <li className="flex items-center justify-between gap-1 hover:text-title hover:-translate-y-2 transition-all ease-in-out duration-700">
                   <BsTelephoneFill
                     size={20}
                     className="inline-block text-title mr-1"
@@ -54,7 +54,7 @@ const Contact = () => {
                 </li>
               </a>
               <a href="mailto:tokolohomohale@gmail.com">
-                <li className="hover:text-title hover:-translate-y-2 transition-all ease-in-out duration-700">
+                <li className="flex items-center justify-between gap-1 hover:text-title hover:-translate-y-2 transition-all ease-in-out duration-700">
                   <MdEmail size={25} className="inline-block text-title mr-1" />
                   tokolohomohale@gmail.co.za
                 </li>
