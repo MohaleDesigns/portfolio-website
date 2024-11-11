@@ -10,3 +10,34 @@
   padding: 8px 10px;
   border-radius: 5px;
 }
+
+/* Ensure these styles are included in your CSS file or a styled-components file */
+.slider-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  /* background-color: rgba(11, 93, 215, 0.2); */
+  padding: 10px 0;
+  border-top: 1px solid rgba(11, 93, 215, 0.6);
+  border-bottom: 1px solid rgba(11, 93, 215, 0.6);
+}
+
+.slider-wrapper {
+  display: flex;
+  animation: slide 20s linear infinite;
+}
+
+.slider-item {
+  flex: 0 0 auto;
+  margin-right: 2rem;
+  box-sizing: border-box;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
