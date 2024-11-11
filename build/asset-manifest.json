@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.04e35faa.css",
+    "main.js": "/static/js/main.e2dec485.js",
+    "static/media/call-to-action.png": "/static/media/call-to-action.af4155bf27020511e5db.png",
+    "static/media/mohaLixDev.png": "/static/media/mohaLixDev.5124fe990f97a57b3713.png",
+    "static/media/bg.png": "/static/media/bg.0a396647b760ebadcac9.png",
+    "static/media/movieland.png": "/static/media/movieland.8c0893b9a4ae97bfc862.png",
+    "static/media/sanedi.png": "/static/media/sanedi.ee9cd81e9f8726ca0a3c.png",
+    "static/media/mohaLix.png": "/static/media/mohaLix.c40df02e5e09480f244d.png",
+    "static/media/justgym.png": "/static/media/justgym.6e5c973ed87b8b6b2032.png",
+    "static/media/wipa.png": "/static/media/wipa.ae3f1fa94dfe55684a3c.png",
+    "static/media/dynamicdnaDesign.png": "/static/media/dynamicdnaDesign.9f9088b95d64fb313ce1.png",
+    "static/media/justGymDesign.png": "/static/media/justGymDesign.cdf3e57df078d99a0460.png",
+    "static/media/banner-image-1.png": "/static/media/banner-image-1.9766d7ef3dcec19e6e61.png",
+    "static/media/mohaleBank.png": "/static/media/mohaleBank.cb8ecedd515bfab1305b.png",
+    "static/media/pacesetter.png": "/static/media/pacesetter.04498f55278466010df1.png",
+    "static/media/quizzical.png": "/static/media/quizzical.cac11b8ddf1126ce601f.png",
+    "static/media/freezeDice.png": "/static/media/freezeDice.e69bca2f8db10a987165.png",
+    "static/media/expese-tracker.png": "/static/media/expese-tracker.3cf201ba166cb5d15488.png",
+    "index.html": "/index.html",
+    "main.04e35faa.css.map": "/static/css/main.04e35faa.css.map",
+    "main.e2dec485.js.map": "/static/js/main.e2dec485.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04e35faa.css",
+    "static/js/main.e2dec485.js"
+  ]
+}
