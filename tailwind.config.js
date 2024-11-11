@@ -27,20 +27,9 @@ module.exports = {
         // title
         title: "#ff6700",
       },
-      backgroundImage: {
-        html: "url('../src/assets/tools/html.png')",
-        css: "url('../src/assets/tools/css.png')",
-        javascript: "url('../src/assets/tools/js.png')",
-        bootstrap: "url('../src/assets/tools/bootstrap.png')",
-        react: "url('../src/assets/tools/react.png')",
-        csharp: "url('../src/assets/tools/csharp.png')",
-
-        tailwind: "url('../src/assets/tools/tailwind.png')",
-        wordpress: "url('../src/assets/tools/wordpress.png')",
-        mysql: "url('../src/assets/tools/mysql.png')",
-        git: "url('../src/assets/tools/git.png')",
-        github: "url('../src/assets/tools/github.png')",
-        figma: "url('../src/assets/tools/figma.png')",
+      fontFamily: {
+        Montserrat: ["Montserrat", "sans-serif"],
+        Caveat: ["Caveat", "cursive"],
       },
     },
   },
